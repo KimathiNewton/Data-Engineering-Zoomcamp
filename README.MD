@@ -14,4 +14,4 @@ docker run -t \
     -e POSTGRES_DB="ny_taxi" \
     -v $(pwd)/ny_taxi_postgres_data:/var/lib/postgresql/data
     -p 5432:5432 \
-    postgress:13
+    postgress:13  
