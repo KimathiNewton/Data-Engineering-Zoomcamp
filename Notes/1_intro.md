@@ -136,6 +136,140 @@ You should get the same output you did when you ran the pipeline script by itsel
 
 >Note: these instructions asume that `pipeline.py` and `Dockerfile` are in the same directory. The Docker commands should also be run from the same directory as these files.
 
+## Commond Docker Commands
+Here’s a breakdown of common Docker commands and their purposes, highlighting the differences between them:
+
+---
+
+### **1. `docker build`**
+- **Purpose**: Creates a Docker image from a Dockerfile.
+- **How It Works**: Reads instructions in a `Dockerfile` and creates an image.
+- **Example**:
+  ```bash
+  docker build -t my-app .
+  ```
+  - `-t`: Tags the image with a name (e.g., `my-app`).
+  - `.`: Specifies the context (current directory).
+
+---
+
+### **2. `docker run`**
+- **Purpose**: Creates and starts a container from an image.
+- **How It Works**: Takes an image and runs it as a container.
+- **Example**:
+  ```bash
+  docker run -p 8080:80 my-app
+  ```
+  - `-p 8080:80`: Maps port 8080 on the host to port 80 in the container.
+  - `my-app`: The name of the image to run.
+
+---
+
+### **3. `docker compose`**
+- **Purpose**: Manages multi-container Docker applications.
+- **How It Works**: Uses a `docker-compose.yml` file to define and run multiple containers as a single service.
+- **Example**:
+  ```bash
+  docker-compose up
+  ```
+  - `up`: Builds, creates, and starts all containers defined in the `docker-compose.yml` file.
+  - **Why Use It**: Simplifies managing applications with multiple services (e.g., a web server + database).
+
+---
+
+### **4. `docker ps`**
+- **Purpose**: Lists running containers.
+- **How It Works**: Shows details like container ID, name, and status.
+- **Example**:
+  ```bash
+  docker ps
+  ```
+  - `-a`: Lists all containers (running or stopped).
+
+---
+
+### **5. `docker images`**
+- **Purpose**: Lists all Docker images on your system.
+- **How It Works**: Shows details like image name, tag, and size.
+- **Example**:
+  ```bash
+  docker images
+  ```
+
+---
+
+### **6. `docker exec`**
+- **Purpose**: Runs a command inside a running container.
+- **How It Works**: Provides interactive access to a container.
+- **Example**:
+  ```bash
+  docker exec -it my-container bash
+  ```
+  - `-it`: Makes the terminal interactive.
+  - `my-container`: Name or ID of the running container.
+  - `bash`: Command to run (opens a shell).
+
+---
+
+### **7. `docker stop`**
+- **Purpose**: Stops a running container.
+- **How It Works**: Gracefully shuts down the container.
+- **Example**:
+  ```bash
+  docker stop my-container
+  ```
+
+---
+
+### **8. `docker rm`**
+- **Purpose**: Removes a stopped container.
+- **How It Works**: Deletes the container from your system.
+- **Example**:
+  ```bash
+  docker rm my-container
+  ```
+
+---
+
+### **9. `docker rmi`**
+- **Purpose**: Removes an image.
+- **How It Works**: Deletes an image from your system.
+- **Example**:
+  ```bash
+  docker rmi my-app
+  ```
+
+---
+
+### **10. `docker logs`**
+- **Purpose**: Fetches logs from a running or stopped container.
+- **How It Works**: Outputs the container’s log history.
+- **Example**:
+  ```bash
+  docker logs my-container
+  ```
+
+---
+
+### **Summary Table**
+
+| Command            | Purpose                              | Common Use Case                                                                 |
+|---------------------|--------------------------------------|---------------------------------------------------------------------------------|
+| `docker build`      | Build an image                      | Build an image from a Dockerfile                                               |
+| `docker run`        | Run a container                     | Start a container from an image                                               |
+| `docker compose`    | Orchestrate multiple containers     | Run multi-container apps (e.g., web + database)                                |
+| `docker ps`         | List running containers             | Check active containers                                                        |
+| `docker images`     | List all images                     | View available images                                                          |
+| `docker exec`       | Execute commands in a container     | Run shell commands in a running container                                      |
+| `docker stop`       | Stop a container                    | Gracefully stop a container                                                    |
+| `docker rm`         | Remove a container                  | Clean up stopped containers                                                    |
+| `docker rmi`        | Remove an image                     | Free up space by removing unused images                                        |
+| `docker logs`       | Fetch container logs                | Debug or analyze application behavior                                          |
+
+By understanding these commands, you can effectively manage Docker images, containers, and multi-container applications.
+
+
+
 ## Running Postgres in a container
 
 _([Video source](https://www.youtube.com/watch?v=2JM-ziJt0WI&list=PL3MmuxUbc_hJed7dXYoJw8DoCuVHhGEQb&index=4))_
