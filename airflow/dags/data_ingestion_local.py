@@ -2,7 +2,7 @@ import os
 from datetime import datetime
 from airflow import DAG
 from airflow.operators.bash import BashOperator
-
+  
 # The reason we save it in AIRFLOW_HOME is because if we save in default location, all these files will be deleted after the task finishes
 path_to_local_home = os.environ.get("AIRFLOW_HOME", "/opt/airflow/")
 
