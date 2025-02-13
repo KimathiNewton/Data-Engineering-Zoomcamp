@@ -1,0 +1,27 @@
+[2025-02-08 11:46:13,296] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: LocalIngestionDag.wget scheduled__2023-11-02T06:00:00+00:00 [queued]>
+[2025-02-08 11:46:13,360] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: LocalIngestionDag.wget scheduled__2023-11-02T06:00:00+00:00 [queued]>
+[2025-02-08 11:46:13,379] {taskinstance.py:1238} INFO - 
+--------------------------------------------------------------------------------
+[2025-02-08 11:46:13,380] {taskinstance.py:1239} INFO - Starting attempt 1 of 1
+[2025-02-08 11:46:13,380] {taskinstance.py:1240} INFO - 
+--------------------------------------------------------------------------------
+[2025-02-08 11:46:13,420] {taskinstance.py:1259} INFO - Executing <Task(BashOperator): wget> on 2023-11-02 06:00:00+00:00
+[2025-02-08 11:46:13,440] {standard_task_runner.py:52} INFO - Started process 657 to run task
+[2025-02-08 11:46:13,454] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'LocalIngestionDag', 'wget', 'scheduled__2023-11-02T06:00:00+00:00', '--job-id', '75', '--raw', '--subdir', 'DAGS_FOLDER/data_ingestion_local.py', '--cfg-path', '/tmp/tmpr9_ksb_b', '--error-file', '/tmp/tmpftk4z87j']
+[2025-02-08 11:46:13,470] {standard_task_runner.py:77} INFO - Job 75: Subtask wget
+[2025-02-08 11:46:13,644] {logging_mixin.py:109} INFO - Running <TaskInstance: LocalIngestionDag.wget scheduled__2023-11-02T06:00:00+00:00 [running]> on host dfc301afada6
+[2025-02-08 11:46:13,833] {taskinstance.py:1426} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=LocalIngestionDag
+AIRFLOW_CTX_TASK_ID=wget
+AIRFLOW_CTX_EXECUTION_DATE=2023-11-02T06:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2023-11-02T06:00:00+00:00
+[2025-02-08 11:46:13,835] {subprocess.py:62} INFO - Tmp dir root location: 
+ /tmp
+[2025-02-08 11:46:13,836] {subprocess.py:74} INFO - Running command: ['bash', '-c', 'echo "Hello world"']
+[2025-02-08 11:46:13,869] {subprocess.py:85} INFO - Output:
+[2025-02-08 11:46:13,870] {subprocess.py:89} INFO - Hello world
+[2025-02-08 11:46:13,870] {subprocess.py:93} INFO - Command exited with return code 0
+[2025-02-08 11:46:14,013] {taskinstance.py:1277} INFO - Marking task as SUCCESS. dag_id=LocalIngestionDag, task_id=wget, execution_date=20231102T060000, start_date=20250208T114613, end_date=20250208T114614
+[2025-02-08 11:46:14,079] {local_task_job.py:154} INFO - Task exited with return code 0
+[2025-02-08 11:46:14,143] {local_task_job.py:264} INFO - 1 downstream tasks scheduled from follow-on schedule check

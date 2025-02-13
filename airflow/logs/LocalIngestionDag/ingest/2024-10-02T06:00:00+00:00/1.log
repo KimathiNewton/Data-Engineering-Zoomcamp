@@ -1,0 +1,27 @@
+[2025-02-08 11:46:26,231] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: LocalIngestionDag.ingest scheduled__2024-10-02T06:00:00+00:00 [queued]>
+[2025-02-08 11:46:26,249] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: LocalIngestionDag.ingest scheduled__2024-10-02T06:00:00+00:00 [queued]>
+[2025-02-08 11:46:26,249] {taskinstance.py:1238} INFO - 
+--------------------------------------------------------------------------------
+[2025-02-08 11:46:26,249] {taskinstance.py:1239} INFO - Starting attempt 1 of 1
+[2025-02-08 11:46:26,250] {taskinstance.py:1240} INFO - 
+--------------------------------------------------------------------------------
+[2025-02-08 11:46:26,275] {taskinstance.py:1259} INFO - Executing <Task(BashOperator): ingest> on 2024-10-02 06:00:00+00:00
+[2025-02-08 11:46:26,284] {standard_task_runner.py:52} INFO - Started process 755 to run task
+[2025-02-08 11:46:26,291] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'LocalIngestionDag', 'ingest', 'scheduled__2024-10-02T06:00:00+00:00', '--job-id', '103', '--raw', '--subdir', 'DAGS_FOLDER/data_ingestion_local.py', '--cfg-path', '/tmp/tmpll4ubatz', '--error-file', '/tmp/tmpp6wny55a']
+[2025-02-08 11:46:26,294] {standard_task_runner.py:77} INFO - Job 103: Subtask ingest
+[2025-02-08 11:46:26,380] {logging_mixin.py:109} INFO - Running <TaskInstance: LocalIngestionDag.ingest scheduled__2024-10-02T06:00:00+00:00 [running]> on host dfc301afada6
+[2025-02-08 11:46:26,471] {taskinstance.py:1426} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=LocalIngestionDag
+AIRFLOW_CTX_TASK_ID=ingest
+AIRFLOW_CTX_EXECUTION_DATE=2024-10-02T06:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2024-10-02T06:00:00+00:00
+[2025-02-08 11:46:26,472] {subprocess.py:62} INFO - Tmp dir root location: 
+ /tmp
+[2025-02-08 11:46:26,473] {subprocess.py:74} INFO - Running command: ['bash', '-c', 'pwd']
+[2025-02-08 11:46:26,492] {subprocess.py:85} INFO - Output:
+[2025-02-08 11:46:26,496] {subprocess.py:89} INFO - /tmp/***tmp6md8sxpq
+[2025-02-08 11:46:26,497] {subprocess.py:93} INFO - Command exited with return code 0
+[2025-02-08 11:46:26,554] {taskinstance.py:1277} INFO - Marking task as SUCCESS. dag_id=LocalIngestionDag, task_id=ingest, execution_date=20241002T060000, start_date=20250208T114626, end_date=20250208T114626
+[2025-02-08 11:46:26,620] {local_task_job.py:154} INFO - Task exited with return code 0
+[2025-02-08 11:46:26,664] {local_task_job.py:264} INFO - 0 downstream tasks scheduled from follow-on schedule check
