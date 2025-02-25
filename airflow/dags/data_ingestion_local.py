@@ -2,9 +2,19 @@ import os
 from datetime import datetime
 from airflow import DAG
 from airflow.operators.bash import BashOperator
+from airflow.operators.python import PythonOperator
+from ingest_script import ingest_callable
   
 # The reason we save it in AIRFLOW_HOME is because if we save in default location, all these files will be deleted after the task finishes
 path_to_local_home = os.environ.get("AIRFLOW_HOME", "/opt/airflow/")
+
+
+PG_HOST = os.getenv('PG_HOST')
+PG_USER = os.getenv('PG_USER')
+PG_PASSWORD = os.getenv('PG_PASSWORD')
+PG_PORT = os.getenv('PG_PORT')
+PG_DATABASE = os.getenv('PG_DATABASE')
+
 
 # The interval of how we want to run the job, which is all the data accumulated for the last month
 local_workflow = DAG(
@@ -28,9 +38,20 @@ with local_workflow:
     )
 
     # The second task is to list the contents of the directory
-    ingest_task = BashOperator(
+    ingest_task = PythonOperator(
         task_id="ingest",
-        bash_command=f"ls {path_to_local_home}"  
+        python_callable=ingest_callable,
+        op_kwargs = dict(
+            user = PG_USER,
+            password = PG_PASSWORD,
+            host = PG_HOST,
+            port = PG_PORT,
+            db = PG_DATABASE,
+            #table_name = TABLE_NAME_TEMPLATE
+            #parquet_file = OUTPUT_FILE_TEMPLATE
+            
+        )
+
     )
 
     # We specify the task dependencies
