@@ -1,0 +1,1598 @@
+[2025-02-22 23:12:59,405] {processor.py:163} INFO - Started process (PID=172) to work on /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:12:59,408] {processor.py:642} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2025-02-22 23:12:59,409] {logging_mixin.py:109} INFO - [2025-02-22 23:12:59,409] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:12:59,415] {logging_mixin.py:109} INFO - [2025-02-22 23:12:59,413] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/data_ingestion_local.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion_local.py", line 47
+    host = PG_HOST
+       ^
+SyntaxError: invalid syntax
+[2025-02-22 23:12:59,445] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:12:59,463] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 0.069 seconds
+[2025-02-22 23:13:29,587] {processor.py:163} INFO - Started process (PID=201) to work on /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:13:29,588] {processor.py:642} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2025-02-22 23:13:29,588] {logging_mixin.py:109} INFO - [2025-02-22 23:13:29,588] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:13:29,590] {logging_mixin.py:109} INFO - [2025-02-22 23:13:29,590] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/data_ingestion_local.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion_local.py", line 47
+    host = PG_HOST
+       ^
+SyntaxError: invalid syntax
+[2025-02-22 23:13:29,612] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:13:29,625] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 0.041 seconds
+[2025-02-22 23:13:59,694] {processor.py:163} INFO - Started process (PID=224) to work on /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:13:59,746] {processor.py:642} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2025-02-22 23:13:59,747] {logging_mixin.py:109} INFO - [2025-02-22 23:13:59,747] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:13:59,749] {logging_mixin.py:109} INFO - [2025-02-22 23:13:59,748] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/data_ingestion_local.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion_local.py", line 47
+    host = PG_HOST
+       ^
+SyntaxError: invalid syntax
+[2025-02-22 23:13:59,773] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:13:59,786] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 0.094 seconds
+[2025-02-22 23:14:29,864] {processor.py:163} INFO - Started process (PID=248) to work on /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:14:29,907] {processor.py:642} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2025-02-22 23:14:29,908] {logging_mixin.py:109} INFO - [2025-02-22 23:14:29,908] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:14:29,911] {logging_mixin.py:109} INFO - [2025-02-22 23:14:29,909] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/data_ingestion_local.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion_local.py", line 47
+    host = PG_HOST
+       ^
+SyntaxError: invalid syntax
+[2025-02-22 23:14:29,933] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:14:29,946] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 0.086 seconds
+[2025-02-22 23:15:00,031] {processor.py:163} INFO - Started process (PID=284) to work on /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:15:00,032] {processor.py:642} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2025-02-22 23:15:00,033] {logging_mixin.py:109} INFO - [2025-02-22 23:15:00,033] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:15:00,035] {logging_mixin.py:109} INFO - [2025-02-22 23:15:00,035] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/data_ingestion_local.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion_local.py", line 47
+    host = PG_HOST
+       ^
+SyntaxError: invalid syntax
+[2025-02-22 23:15:00,056] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:15:00,070] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 0.042 seconds
+[2025-02-22 23:15:30,127] {processor.py:163} INFO - Started process (PID=309) to work on /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:15:30,129] {processor.py:642} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2025-02-22 23:15:30,130] {logging_mixin.py:109} INFO - [2025-02-22 23:15:30,130] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:15:30,132] {logging_mixin.py:109} INFO - [2025-02-22 23:15:30,131] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/data_ingestion_local.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion_local.py", line 47
+    host = PG_HOST
+       ^
+SyntaxError: invalid syntax
+[2025-02-22 23:15:30,157] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:15:30,171] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 0.048 seconds
+[2025-02-22 23:16:00,247] {processor.py:163} INFO - Started process (PID=345) to work on /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:16:00,250] {processor.py:642} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2025-02-22 23:16:00,251] {logging_mixin.py:109} INFO - [2025-02-22 23:16:00,251] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:16:00,253] {logging_mixin.py:109} INFO - [2025-02-22 23:16:00,252] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/data_ingestion_local.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion_local.py", line 47
+    host = PG_HOST
+       ^
+SyntaxError: invalid syntax
+[2025-02-22 23:16:00,275] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:16:00,287] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 0.043 seconds
+[2025-02-22 23:16:30,355] {processor.py:163} INFO - Started process (PID=370) to work on /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:16:30,356] {processor.py:642} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2025-02-22 23:16:30,357] {logging_mixin.py:109} INFO - [2025-02-22 23:16:30,357] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:16:30,359] {logging_mixin.py:109} INFO - [2025-02-22 23:16:30,358] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/data_ingestion_local.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion_local.py", line 47
+    host = PG_HOST
+       ^
+SyntaxError: invalid syntax
+[2025-02-22 23:16:30,382] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:16:30,395] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 0.043 seconds
+[2025-02-22 23:17:00,461] {processor.py:163} INFO - Started process (PID=395) to work on /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:17:00,467] {processor.py:642} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2025-02-22 23:17:00,467] {logging_mixin.py:109} INFO - [2025-02-22 23:17:00,467] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:17:00,470] {logging_mixin.py:109} INFO - [2025-02-22 23:17:00,469] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/data_ingestion_local.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion_local.py", line 47
+    host = PG_HOST
+       ^
+SyntaxError: invalid syntax
+[2025-02-22 23:17:00,491] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:17:00,501] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 0.042 seconds
+[2025-02-22 23:17:30,572] {processor.py:163} INFO - Started process (PID=429) to work on /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:17:30,596] {processor.py:642} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2025-02-22 23:17:30,596] {logging_mixin.py:109} INFO - [2025-02-22 23:17:30,596] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:17:30,599] {logging_mixin.py:109} INFO - [2025-02-22 23:17:30,598] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/data_ingestion_local.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion_local.py", line 47
+    host = PG_HOST
+       ^
+SyntaxError: invalid syntax
+[2025-02-22 23:17:30,621] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:17:30,635] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 0.066 seconds
+[2025-02-22 23:18:00,694] {processor.py:163} INFO - Started process (PID=453) to work on /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:18:00,701] {processor.py:642} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2025-02-22 23:18:00,702] {logging_mixin.py:109} INFO - [2025-02-22 23:18:00,702] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:18:00,704] {logging_mixin.py:109} INFO - [2025-02-22 23:18:00,704] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/data_ingestion_local.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion_local.py", line 47
+    host = PG_HOST
+       ^
+SyntaxError: invalid syntax
+[2025-02-22 23:18:00,725] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:18:00,738] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 0.047 seconds
+[2025-02-22 23:18:30,812] {processor.py:163} INFO - Started process (PID=487) to work on /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:18:30,814] {processor.py:642} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2025-02-22 23:18:30,815] {logging_mixin.py:109} INFO - [2025-02-22 23:18:30,815] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:18:30,817] {logging_mixin.py:109} INFO - [2025-02-22 23:18:30,816] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/data_ingestion_local.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion_local.py", line 47
+    host = PG_HOST
+       ^
+SyntaxError: invalid syntax
+[2025-02-22 23:18:30,838] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:18:30,848] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 0.039 seconds
+[2025-02-22 23:19:00,910] {processor.py:163} INFO - Started process (PID=513) to work on /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:19:00,912] {processor.py:642} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2025-02-22 23:19:00,913] {logging_mixin.py:109} INFO - [2025-02-22 23:19:00,913] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:19:00,915] {logging_mixin.py:109} INFO - [2025-02-22 23:19:00,914] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/data_ingestion_local.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion_local.py", line 47
+    host = PG_HOST
+       ^
+SyntaxError: invalid syntax
+[2025-02-22 23:19:00,938] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:19:00,953] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 0.046 seconds
+[2025-02-22 23:19:31,026] {processor.py:163} INFO - Started process (PID=538) to work on /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:19:31,027] {processor.py:642} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2025-02-22 23:19:31,028] {logging_mixin.py:109} INFO - [2025-02-22 23:19:31,028] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:19:31,030] {logging_mixin.py:109} INFO - [2025-02-22 23:19:31,030] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/data_ingestion_local.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion_local.py", line 47
+    host = PG_HOST
+       ^
+SyntaxError: invalid syntax
+[2025-02-22 23:19:31,058] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:19:31,073] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 0.050 seconds
+[2025-02-22 23:20:01,131] {processor.py:163} INFO - Started process (PID=573) to work on /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:20:01,155] {processor.py:642} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2025-02-22 23:20:01,156] {logging_mixin.py:109} INFO - [2025-02-22 23:20:01,156] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:20:01,159] {logging_mixin.py:109} INFO - [2025-02-22 23:20:01,158] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/data_ingestion_local.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion_local.py", line 47
+    host = PG_HOST
+       ^
+SyntaxError: invalid syntax
+[2025-02-22 23:20:01,182] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:20:01,194] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 0.066 seconds
+[2025-02-22 23:20:31,251] {processor.py:163} INFO - Started process (PID=599) to work on /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:20:31,253] {processor.py:642} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2025-02-22 23:20:31,254] {logging_mixin.py:109} INFO - [2025-02-22 23:20:31,254] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:20:31,256] {logging_mixin.py:109} INFO - [2025-02-22 23:20:31,255] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/data_ingestion_local.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion_local.py", line 47
+    host = PG_HOST
+       ^
+SyntaxError: invalid syntax
+[2025-02-22 23:20:31,274] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:20:31,291] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 0.044 seconds
+[2025-02-22 23:21:01,383] {processor.py:163} INFO - Started process (PID=623) to work on /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:21:01,385] {processor.py:642} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2025-02-22 23:21:01,386] {logging_mixin.py:109} INFO - [2025-02-22 23:21:01,386] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:21:01,389] {logging_mixin.py:109} INFO - [2025-02-22 23:21:01,388] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/data_ingestion_local.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion_local.py", line 47
+    host = PG_HOST
+       ^
+SyntaxError: invalid syntax
+[2025-02-22 23:21:01,410] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:21:01,423] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 0.044 seconds
+[2025-02-22 23:21:31,496] {processor.py:163} INFO - Started process (PID=657) to work on /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:21:31,497] {processor.py:642} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2025-02-22 23:21:31,498] {logging_mixin.py:109} INFO - [2025-02-22 23:21:31,498] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:21:31,500] {logging_mixin.py:109} INFO - [2025-02-22 23:21:31,499] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/data_ingestion_local.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion_local.py", line 47
+    host = PG_HOST
+       ^
+SyntaxError: invalid syntax
+[2025-02-22 23:21:31,520] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:21:31,531] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 0.038 seconds
+[2025-02-22 23:22:01,613] {processor.py:163} INFO - Started process (PID=682) to work on /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:22:01,622] {processor.py:642} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2025-02-22 23:22:01,623] {logging_mixin.py:109} INFO - [2025-02-22 23:22:01,622] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:22:01,625] {logging_mixin.py:109} INFO - [2025-02-22 23:22:01,624] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/data_ingestion_local.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion_local.py", line 47
+    host = PG_HOST
+       ^
+SyntaxError: invalid syntax
+[2025-02-22 23:22:01,656] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:22:01,669] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 0.060 seconds
+[2025-02-22 23:22:31,715] {processor.py:163} INFO - Started process (PID=718) to work on /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:22:31,716] {processor.py:642} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2025-02-22 23:22:31,717] {logging_mixin.py:109} INFO - [2025-02-22 23:22:31,717] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:22:31,720] {logging_mixin.py:109} INFO - [2025-02-22 23:22:31,719] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/data_ingestion_local.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion_local.py", line 47
+    host = PG_HOST
+       ^
+SyntaxError: invalid syntax
+[2025-02-22 23:22:31,741] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:22:31,753] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 0.043 seconds
+[2025-02-22 23:23:01,872] {processor.py:163} INFO - Started process (PID=743) to work on /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:23:01,880] {processor.py:642} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2025-02-22 23:23:01,880] {logging_mixin.py:109} INFO - [2025-02-22 23:23:01,880] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:23:01,883] {logging_mixin.py:109} INFO - [2025-02-22 23:23:01,882] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/data_ingestion_local.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion_local.py", line 47
+    host = PG_HOST
+       ^
+SyntaxError: invalid syntax
+[2025-02-22 23:23:01,910] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:23:01,927] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 0.058 seconds
+[2025-02-22 23:23:31,968] {processor.py:163} INFO - Started process (PID=769) to work on /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:23:31,969] {processor.py:642} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2025-02-22 23:23:31,970] {logging_mixin.py:109} INFO - [2025-02-22 23:23:31,970] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:23:31,972] {logging_mixin.py:109} INFO - [2025-02-22 23:23:31,971] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/data_ingestion_local.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion_local.py", line 47
+    host = PG_HOST
+       ^
+SyntaxError: invalid syntax
+[2025-02-22 23:23:31,997] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:23:32,013] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 0.048 seconds
+[2025-02-22 23:24:02,110] {processor.py:163} INFO - Started process (PID=803) to work on /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:24:02,164] {processor.py:642} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2025-02-22 23:24:02,165] {logging_mixin.py:109} INFO - [2025-02-22 23:24:02,165] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:24:02,168] {logging_mixin.py:109} INFO - [2025-02-22 23:24:02,167] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/data_ingestion_local.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion_local.py", line 47
+    host = PG_HOST
+       ^
+SyntaxError: invalid syntax
+[2025-02-22 23:24:02,185] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:24:02,195] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 0.088 seconds
+[2025-02-22 23:24:32,285] {processor.py:163} INFO - Started process (PID=828) to work on /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:24:32,318] {processor.py:642} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2025-02-22 23:24:32,319] {logging_mixin.py:109} INFO - [2025-02-22 23:24:32,319] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:24:32,321] {logging_mixin.py:109} INFO - [2025-02-22 23:24:32,320] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/data_ingestion_local.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion_local.py", line 47
+    host = PG_HOST
+       ^
+SyntaxError: invalid syntax
+[2025-02-22 23:24:32,345] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:24:32,359] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 0.078 seconds
+[2025-02-22 23:25:02,439] {processor.py:163} INFO - Started process (PID=853) to work on /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:25:02,442] {processor.py:642} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2025-02-22 23:25:02,443] {logging_mixin.py:109} INFO - [2025-02-22 23:25:02,443] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:25:02,446] {logging_mixin.py:109} INFO - [2025-02-22 23:25:02,445] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/data_ingestion_local.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion_local.py", line 47
+    host = PG_HOST
+       ^
+SyntaxError: invalid syntax
+[2025-02-22 23:25:02,474] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:25:02,484] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 0.048 seconds
+[2025-02-22 23:25:32,537] {processor.py:163} INFO - Started process (PID=888) to work on /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:25:32,539] {processor.py:642} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2025-02-22 23:25:32,540] {logging_mixin.py:109} INFO - [2025-02-22 23:25:32,539] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:25:32,542] {logging_mixin.py:109} INFO - [2025-02-22 23:25:32,541] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/data_ingestion_local.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion_local.py", line 47
+    host = PG_HOST
+       ^
+SyntaxError: invalid syntax
+[2025-02-22 23:25:32,560] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:25:32,570] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 0.036 seconds
+[2025-02-22 23:26:02,672] {processor.py:163} INFO - Started process (PID=913) to work on /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:26:02,723] {processor.py:642} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2025-02-22 23:26:02,724] {logging_mixin.py:109} INFO - [2025-02-22 23:26:02,724] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:26:02,726] {logging_mixin.py:109} INFO - [2025-02-22 23:26:02,726] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/data_ingestion_local.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion_local.py", line 47
+    host = PG_HOST
+       ^
+SyntaxError: invalid syntax
+[2025-02-22 23:26:02,751] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:26:02,765] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 0.096 seconds
+[2025-02-22 23:26:32,850] {processor.py:163} INFO - Started process (PID=948) to work on /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:26:32,853] {processor.py:642} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2025-02-22 23:26:32,854] {logging_mixin.py:109} INFO - [2025-02-22 23:26:32,854] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:26:32,857] {logging_mixin.py:109} INFO - [2025-02-22 23:26:32,856] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/data_ingestion_local.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion_local.py", line 47
+    host = PG_HOST
+       ^
+SyntaxError: invalid syntax
+[2025-02-22 23:26:32,877] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:26:32,887] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 0.041 seconds
+[2025-02-22 23:27:02,949] {processor.py:163} INFO - Started process (PID=974) to work on /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:27:02,951] {processor.py:642} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2025-02-22 23:27:02,952] {logging_mixin.py:109} INFO - [2025-02-22 23:27:02,952] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:27:02,954] {logging_mixin.py:109} INFO - [2025-02-22 23:27:02,954] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/data_ingestion_local.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion_local.py", line 47
+    host = PG_HOST
+       ^
+SyntaxError: invalid syntax
+[2025-02-22 23:27:02,980] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:27:02,994] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 0.049 seconds
+[2025-02-22 23:27:33,070] {processor.py:163} INFO - Started process (PID=998) to work on /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:27:33,073] {processor.py:642} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2025-02-22 23:27:33,074] {logging_mixin.py:109} INFO - [2025-02-22 23:27:33,073] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:27:33,076] {logging_mixin.py:109} INFO - [2025-02-22 23:27:33,075] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/data_ingestion_local.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion_local.py", line 47
+    host = PG_HOST
+       ^
+SyntaxError: invalid syntax
+[2025-02-22 23:27:33,101] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:27:33,112] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 0.045 seconds
+[2025-02-22 23:28:03,192] {processor.py:163} INFO - Started process (PID=1032) to work on /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:28:03,193] {processor.py:642} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2025-02-22 23:28:03,194] {logging_mixin.py:109} INFO - [2025-02-22 23:28:03,194] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:28:03,196] {logging_mixin.py:109} INFO - [2025-02-22 23:28:03,196] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/data_ingestion_local.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion_local.py", line 47
+    host = PG_HOST
+       ^
+SyntaxError: invalid syntax
+[2025-02-22 23:28:03,216] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:28:03,227] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 0.038 seconds
+[2025-02-22 23:28:33,299] {processor.py:163} INFO - Started process (PID=1057) to work on /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:28:33,301] {processor.py:642} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2025-02-22 23:28:33,301] {logging_mixin.py:109} INFO - [2025-02-22 23:28:33,301] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:28:33,304] {logging_mixin.py:109} INFO - [2025-02-22 23:28:33,303] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/data_ingestion_local.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion_local.py", line 47
+    host = PG_HOST
+       ^
+SyntaxError: invalid syntax
+[2025-02-22 23:28:33,322] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:28:33,333] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 0.037 seconds
+[2025-02-22 23:29:03,401] {processor.py:163} INFO - Started process (PID=1093) to work on /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:29:03,402] {processor.py:642} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2025-02-22 23:29:03,403] {logging_mixin.py:109} INFO - [2025-02-22 23:29:03,403] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:29:03,405] {logging_mixin.py:109} INFO - [2025-02-22 23:29:03,404] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/data_ingestion_local.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion_local.py", line 47
+    host = PG_HOST
+       ^
+SyntaxError: invalid syntax
+[2025-02-22 23:29:03,429] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:29:03,443] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 0.045 seconds
+[2025-02-22 23:29:33,505] {processor.py:163} INFO - Started process (PID=1118) to work on /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:29:33,507] {processor.py:642} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2025-02-22 23:29:33,508] {logging_mixin.py:109} INFO - [2025-02-22 23:29:33,508] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:29:33,510] {logging_mixin.py:109} INFO - [2025-02-22 23:29:33,509] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/data_ingestion_local.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion_local.py", line 47
+    host = PG_HOST
+       ^
+SyntaxError: invalid syntax
+[2025-02-22 23:29:33,528] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:29:33,538] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 0.037 seconds
+[2025-02-22 23:30:03,618] {processor.py:163} INFO - Started process (PID=1143) to work on /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:30:03,621] {processor.py:642} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2025-02-22 23:30:03,622] {logging_mixin.py:109} INFO - [2025-02-22 23:30:03,622] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:30:03,625] {logging_mixin.py:109} INFO - [2025-02-22 23:30:03,624] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/data_ingestion_local.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion_local.py", line 47
+    host = PG_HOST
+       ^
+SyntaxError: invalid syntax
+[2025-02-22 23:30:03,653] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:30:03,670] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 0.055 seconds
+[2025-02-22 23:30:33,722] {processor.py:163} INFO - Started process (PID=1178) to work on /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:30:33,724] {processor.py:642} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2025-02-22 23:30:33,724] {logging_mixin.py:109} INFO - [2025-02-22 23:30:33,724] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:30:33,726] {logging_mixin.py:109} INFO - [2025-02-22 23:30:33,726] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/data_ingestion_local.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion_local.py", line 47
+    host = PG_HOST
+       ^
+SyntaxError: invalid syntax
+[2025-02-22 23:30:33,747] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:30:33,759] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 0.040 seconds
+[2025-02-22 23:31:03,848] {processor.py:163} INFO - Started process (PID=1203) to work on /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:31:03,850] {processor.py:642} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2025-02-22 23:31:03,851] {logging_mixin.py:109} INFO - [2025-02-22 23:31:03,850] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:31:03,853] {logging_mixin.py:109} INFO - [2025-02-22 23:31:03,852] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/data_ingestion_local.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion_local.py", line 47
+    host = PG_HOST
+       ^
+SyntaxError: invalid syntax
+[2025-02-22 23:31:03,868] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:31:03,877] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 0.032 seconds
+[2025-02-22 23:31:33,961] {processor.py:163} INFO - Started process (PID=1228) to work on /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:31:33,962] {processor.py:642} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2025-02-22 23:31:33,963] {logging_mixin.py:109} INFO - [2025-02-22 23:31:33,963] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:31:33,966] {logging_mixin.py:109} INFO - [2025-02-22 23:31:33,965] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/data_ingestion_local.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion_local.py", line 47
+    host = PG_HOST
+       ^
+SyntaxError: invalid syntax
+[2025-02-22 23:31:33,989] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:31:34,001] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 0.045 seconds
+[2025-02-22 23:32:04,072] {processor.py:163} INFO - Started process (PID=1263) to work on /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:32:04,074] {processor.py:642} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2025-02-22 23:32:04,075] {logging_mixin.py:109} INFO - [2025-02-22 23:32:04,075] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:32:04,077] {logging_mixin.py:109} INFO - [2025-02-22 23:32:04,076] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/data_ingestion_local.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion_local.py", line 47
+    host = PG_HOST
+       ^
+SyntaxError: invalid syntax
+[2025-02-22 23:32:04,098] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:32:04,110] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 0.041 seconds
+[2025-02-22 23:32:34,175] {processor.py:163} INFO - Started process (PID=1289) to work on /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:32:34,176] {processor.py:642} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2025-02-22 23:32:34,176] {logging_mixin.py:109} INFO - [2025-02-22 23:32:34,176] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:32:34,178] {logging_mixin.py:109} INFO - [2025-02-22 23:32:34,177] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/data_ingestion_local.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion_local.py", line 47
+    host = PG_HOST
+       ^
+SyntaxError: invalid syntax
+[2025-02-22 23:32:34,201] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:32:34,216] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 0.044 seconds
+[2025-02-22 23:33:04,307] {processor.py:163} INFO - Started process (PID=1324) to work on /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:33:04,309] {processor.py:642} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2025-02-22 23:33:04,310] {logging_mixin.py:109} INFO - [2025-02-22 23:33:04,310] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:33:04,312] {logging_mixin.py:109} INFO - [2025-02-22 23:33:04,311] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/data_ingestion_local.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion_local.py", line 47
+    host = PG_HOST
+       ^
+SyntaxError: invalid syntax
+[2025-02-22 23:33:04,334] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:33:04,347] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 0.042 seconds
+[2025-02-22 23:33:34,419] {processor.py:163} INFO - Started process (PID=1350) to work on /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:33:34,421] {processor.py:642} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2025-02-22 23:33:34,421] {logging_mixin.py:109} INFO - [2025-02-22 23:33:34,421] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:33:34,424] {logging_mixin.py:109} INFO - [2025-02-22 23:33:34,423] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/data_ingestion_local.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion_local.py", line 47
+    host = PG_HOST
+       ^
+SyntaxError: invalid syntax
+[2025-02-22 23:33:34,446] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:33:34,458] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 0.042 seconds
+[2025-02-22 23:34:04,528] {processor.py:163} INFO - Started process (PID=1375) to work on /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:34:04,531] {processor.py:642} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2025-02-22 23:34:04,532] {logging_mixin.py:109} INFO - [2025-02-22 23:34:04,532] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:34:04,534] {logging_mixin.py:109} INFO - [2025-02-22 23:34:04,534] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/data_ingestion_local.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion_local.py", line 47
+    host = PG_HOST
+       ^
+SyntaxError: invalid syntax
+[2025-02-22 23:34:04,557] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:34:04,570] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 0.045 seconds
+[2025-02-22 23:34:34,641] {processor.py:163} INFO - Started process (PID=1410) to work on /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:34:34,642] {processor.py:642} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2025-02-22 23:34:34,642] {logging_mixin.py:109} INFO - [2025-02-22 23:34:34,642] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:34:34,644] {logging_mixin.py:109} INFO - [2025-02-22 23:34:34,644] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/data_ingestion_local.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion_local.py", line 47
+    host = PG_HOST
+       ^
+SyntaxError: invalid syntax
+[2025-02-22 23:34:34,665] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:34:34,676] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 0.038 seconds
+[2025-02-22 23:35:04,745] {processor.py:163} INFO - Started process (PID=1434) to work on /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:35:04,747] {processor.py:642} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2025-02-22 23:35:04,748] {logging_mixin.py:109} INFO - [2025-02-22 23:35:04,747] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:35:04,750] {logging_mixin.py:109} INFO - [2025-02-22 23:35:04,749] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/data_ingestion_local.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion_local.py", line 47
+    host = PG_HOST
+       ^
+SyntaxError: invalid syntax
+[2025-02-22 23:35:04,771] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:35:04,781] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 0.039 seconds
+[2025-02-22 23:35:34,858] {processor.py:163} INFO - Started process (PID=1469) to work on /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:35:34,860] {processor.py:642} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2025-02-22 23:35:34,860] {logging_mixin.py:109} INFO - [2025-02-22 23:35:34,860] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:35:34,862] {logging_mixin.py:109} INFO - [2025-02-22 23:35:34,862] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/data_ingestion_local.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion_local.py", line 47
+    host = PG_HOST
+       ^
+SyntaxError: invalid syntax
+[2025-02-22 23:35:34,882] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:35:34,892] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 0.037 seconds
+[2025-02-22 23:36:04,970] {processor.py:163} INFO - Started process (PID=1494) to work on /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:36:04,972] {processor.py:642} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2025-02-22 23:36:04,973] {logging_mixin.py:109} INFO - [2025-02-22 23:36:04,973] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:36:04,975] {logging_mixin.py:109} INFO - [2025-02-22 23:36:04,974] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/data_ingestion_local.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion_local.py", line 47
+    host = PG_HOST
+       ^
+SyntaxError: invalid syntax
+[2025-02-22 23:36:04,996] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:36:05,008] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 0.041 seconds
+[2025-02-22 23:36:35,075] {processor.py:163} INFO - Started process (PID=1519) to work on /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:36:35,077] {processor.py:642} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2025-02-22 23:36:35,078] {logging_mixin.py:109} INFO - [2025-02-22 23:36:35,078] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:36:35,080] {logging_mixin.py:109} INFO - [2025-02-22 23:36:35,079] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/data_ingestion_local.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion_local.py", line 47
+    host = PG_HOST
+       ^
+SyntaxError: invalid syntax
+[2025-02-22 23:36:35,103] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:36:35,116] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 0.044 seconds
+[2025-02-22 23:37:05,182] {processor.py:163} INFO - Started process (PID=1555) to work on /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:37:05,184] {processor.py:642} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2025-02-22 23:37:05,185] {logging_mixin.py:109} INFO - [2025-02-22 23:37:05,185] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:37:05,188] {logging_mixin.py:109} INFO - [2025-02-22 23:37:05,187] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/data_ingestion_local.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion_local.py", line 47
+    host = PG_HOST
+       ^
+SyntaxError: invalid syntax
+[2025-02-22 23:37:05,212] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:37:05,226] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 0.047 seconds
+[2025-02-22 23:37:35,295] {processor.py:163} INFO - Started process (PID=1581) to work on /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:37:35,297] {processor.py:642} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2025-02-22 23:37:35,298] {logging_mixin.py:109} INFO - [2025-02-22 23:37:35,298] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:37:35,300] {logging_mixin.py:109} INFO - [2025-02-22 23:37:35,299] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/data_ingestion_local.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion_local.py", line 47
+    host = PG_HOST
+       ^
+SyntaxError: invalid syntax
+[2025-02-22 23:37:35,324] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:37:35,339] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 0.047 seconds
+[2025-02-22 23:38:05,423] {processor.py:163} INFO - Started process (PID=1605) to work on /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:38:05,425] {processor.py:642} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2025-02-22 23:38:05,426] {logging_mixin.py:109} INFO - [2025-02-22 23:38:05,426] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:38:05,428] {logging_mixin.py:109} INFO - [2025-02-22 23:38:05,427] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/data_ingestion_local.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion_local.py", line 47
+    host = PG_HOST
+       ^
+SyntaxError: invalid syntax
+[2025-02-22 23:38:05,452] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:38:05,463] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 0.043 seconds
+[2025-02-22 23:38:35,526] {processor.py:163} INFO - Started process (PID=1641) to work on /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:38:35,528] {processor.py:642} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2025-02-22 23:38:35,529] {logging_mixin.py:109} INFO - [2025-02-22 23:38:35,529] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:38:35,532] {logging_mixin.py:109} INFO - [2025-02-22 23:38:35,531] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/data_ingestion_local.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion_local.py", line 47
+    host = PG_HOST
+       ^
+SyntaxError: invalid syntax
+[2025-02-22 23:38:35,555] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:38:35,566] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 0.043 seconds
+[2025-02-22 23:39:05,657] {processor.py:163} INFO - Started process (PID=1667) to work on /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:39:05,657] {processor.py:642} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2025-02-22 23:39:05,658] {logging_mixin.py:109} INFO - [2025-02-22 23:39:05,658] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:39:05,660] {logging_mixin.py:109} INFO - [2025-02-22 23:39:05,659] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/data_ingestion_local.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion_local.py", line 47
+    host = PG_HOST
+       ^
+SyntaxError: invalid syntax
+[2025-02-22 23:39:05,678] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:39:05,689] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 0.036 seconds
+[2025-02-22 23:39:35,761] {processor.py:163} INFO - Started process (PID=1702) to work on /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:39:35,763] {processor.py:642} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2025-02-22 23:39:35,763] {logging_mixin.py:109} INFO - [2025-02-22 23:39:35,763] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:39:35,765] {logging_mixin.py:109} INFO - [2025-02-22 23:39:35,765] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/data_ingestion_local.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion_local.py", line 47
+    host = PG_HOST
+       ^
+SyntaxError: invalid syntax
+[2025-02-22 23:39:35,785] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:39:35,797] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 0.040 seconds
+[2025-02-22 23:40:05,868] {processor.py:163} INFO - Started process (PID=1727) to work on /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:40:05,870] {processor.py:642} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2025-02-22 23:40:05,871] {logging_mixin.py:109} INFO - [2025-02-22 23:40:05,871] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:40:05,873] {logging_mixin.py:109} INFO - [2025-02-22 23:40:05,872] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/data_ingestion_local.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion_local.py", line 47
+    host = PG_HOST
+       ^
+SyntaxError: invalid syntax
+[2025-02-22 23:40:05,890] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:40:05,899] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 0.034 seconds
+[2025-02-22 23:40:35,970] {processor.py:163} INFO - Started process (PID=1752) to work on /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:40:35,972] {processor.py:642} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2025-02-22 23:40:35,972] {logging_mixin.py:109} INFO - [2025-02-22 23:40:35,972] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:40:35,974] {logging_mixin.py:109} INFO - [2025-02-22 23:40:35,973] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/data_ingestion_local.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion_local.py", line 47
+    host = PG_HOST
+       ^
+SyntaxError: invalid syntax
+[2025-02-22 23:40:35,993] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:40:36,005] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 0.038 seconds
+[2025-02-22 23:41:06,081] {processor.py:163} INFO - Started process (PID=1785) to work on /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:41:06,083] {processor.py:642} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2025-02-22 23:41:06,083] {logging_mixin.py:109} INFO - [2025-02-22 23:41:06,083] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:41:06,086] {logging_mixin.py:109} INFO - [2025-02-22 23:41:06,085] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/data_ingestion_local.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion_local.py", line 47
+    host = PG_HOST
+       ^
+SyntaxError: invalid syntax
+[2025-02-22 23:41:06,107] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:41:06,117] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 0.040 seconds
+[2025-02-22 23:41:36,190] {processor.py:163} INFO - Started process (PID=1811) to work on /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:41:36,193] {processor.py:642} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2025-02-22 23:41:36,193] {logging_mixin.py:109} INFO - [2025-02-22 23:41:36,193] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:41:36,195] {logging_mixin.py:109} INFO - [2025-02-22 23:41:36,195] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/data_ingestion_local.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion_local.py", line 47
+    host = PG_HOST
+       ^
+SyntaxError: invalid syntax
+[2025-02-22 23:41:36,215] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:41:36,229] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 0.042 seconds
+[2025-02-22 23:42:06,302] {processor.py:163} INFO - Started process (PID=1846) to work on /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:42:06,303] {processor.py:642} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2025-02-22 23:42:06,303] {logging_mixin.py:109} INFO - [2025-02-22 23:42:06,303] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:42:06,305] {logging_mixin.py:109} INFO - [2025-02-22 23:42:06,304] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/data_ingestion_local.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion_local.py", line 47
+    host = PG_HOST
+       ^
+SyntaxError: invalid syntax
+[2025-02-22 23:42:06,321] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:42:06,330] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 0.031 seconds
+[2025-02-22 23:42:36,412] {processor.py:163} INFO - Started process (PID=1871) to work on /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:42:36,414] {processor.py:642} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2025-02-22 23:42:36,414] {logging_mixin.py:109} INFO - [2025-02-22 23:42:36,414] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:42:36,416] {logging_mixin.py:109} INFO - [2025-02-22 23:42:36,415] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/data_ingestion_local.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion_local.py", line 47
+    host = PG_HOST
+       ^
+SyntaxError: invalid syntax
+[2025-02-22 23:42:36,439] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:42:36,451] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 0.042 seconds
+[2025-02-22 23:43:06,551] {processor.py:163} INFO - Started process (PID=1896) to work on /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:43:06,552] {processor.py:642} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2025-02-22 23:43:06,553] {logging_mixin.py:109} INFO - [2025-02-22 23:43:06,553] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:43:06,555] {logging_mixin.py:109} INFO - [2025-02-22 23:43:06,554] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/data_ingestion_local.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion_local.py", line 47
+    host = PG_HOST
+       ^
+SyntaxError: invalid syntax
+[2025-02-22 23:43:06,576] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:43:06,591] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 0.042 seconds
+[2025-02-22 23:43:36,651] {processor.py:163} INFO - Started process (PID=1931) to work on /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:43:36,653] {processor.py:642} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2025-02-22 23:43:36,654] {logging_mixin.py:109} INFO - [2025-02-22 23:43:36,654] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:43:36,656] {logging_mixin.py:109} INFO - [2025-02-22 23:43:36,655] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/data_ingestion_local.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion_local.py", line 47
+    host = PG_HOST
+       ^
+SyntaxError: invalid syntax
+[2025-02-22 23:43:36,673] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:43:36,682] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 0.034 seconds
+[2025-02-22 23:44:06,767] {processor.py:163} INFO - Started process (PID=1956) to work on /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:44:06,769] {processor.py:642} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2025-02-22 23:44:06,769] {logging_mixin.py:109} INFO - [2025-02-22 23:44:06,769] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:44:06,771] {logging_mixin.py:109} INFO - [2025-02-22 23:44:06,770] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/data_ingestion_local.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion_local.py", line 47
+    host = PG_HOST
+       ^
+SyntaxError: invalid syntax
+[2025-02-22 23:44:06,790] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:44:06,799] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 0.036 seconds
+[2025-02-22 23:44:36,873] {processor.py:163} INFO - Started process (PID=1988) to work on /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:44:36,875] {processor.py:642} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2025-02-22 23:44:36,876] {logging_mixin.py:109} INFO - [2025-02-22 23:44:36,876] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:44:36,878] {logging_mixin.py:109} INFO - [2025-02-22 23:44:36,877] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/data_ingestion_local.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion_local.py", line 47
+    host = PG_HOST
+       ^
+SyntaxError: invalid syntax
+[2025-02-22 23:44:36,898] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:44:37,017] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 0.147 seconds
+[2025-02-22 23:45:07,111] {processor.py:163} INFO - Started process (PID=2015) to work on /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:45:07,114] {processor.py:642} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2025-02-22 23:45:07,115] {logging_mixin.py:109} INFO - [2025-02-22 23:45:07,114] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:45:07,117] {logging_mixin.py:109} INFO - [2025-02-22 23:45:07,116] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/data_ingestion_local.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion_local.py", line 47
+    host = PG_HOST
+       ^
+SyntaxError: invalid syntax
+[2025-02-22 23:45:07,242] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:45:07,256] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 0.149 seconds
+[2025-02-22 23:45:37,312] {processor.py:163} INFO - Started process (PID=2040) to work on /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:45:37,314] {processor.py:642} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2025-02-22 23:45:37,314] {logging_mixin.py:109} INFO - [2025-02-22 23:45:37,314] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:45:37,316] {logging_mixin.py:109} INFO - [2025-02-22 23:45:37,316] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/data_ingestion_local.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion_local.py", line 47
+    host = PG_HOST
+       ^
+SyntaxError: invalid syntax
+[2025-02-22 23:45:37,339] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:45:37,353] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 0.044 seconds
+[2025-02-22 23:46:07,440] {processor.py:163} INFO - Started process (PID=2075) to work on /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:46:07,442] {processor.py:642} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2025-02-22 23:46:07,443] {logging_mixin.py:109} INFO - [2025-02-22 23:46:07,443] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:46:07,446] {logging_mixin.py:109} INFO - [2025-02-22 23:46:07,445] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/data_ingestion_local.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion_local.py", line 47
+    host = PG_HOST
+       ^
+SyntaxError: invalid syntax
+[2025-02-22 23:46:07,465] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:46:07,476] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 0.039 seconds
+[2025-02-22 23:46:37,554] {processor.py:163} INFO - Started process (PID=2100) to work on /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:46:37,555] {processor.py:642} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2025-02-22 23:46:37,556] {logging_mixin.py:109} INFO - [2025-02-22 23:46:37,556] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:46:37,558] {logging_mixin.py:109} INFO - [2025-02-22 23:46:37,557] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/data_ingestion_local.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion_local.py", line 47
+    host = PG_HOST
+       ^
+SyntaxError: invalid syntax
+[2025-02-22 23:46:37,576] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:46:37,587] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 0.036 seconds
+[2025-02-22 23:47:07,666] {processor.py:163} INFO - Started process (PID=2125) to work on /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:47:07,668] {processor.py:642} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2025-02-22 23:47:07,669] {logging_mixin.py:109} INFO - [2025-02-22 23:47:07,669] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:47:07,671] {logging_mixin.py:109} INFO - [2025-02-22 23:47:07,670] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/data_ingestion_local.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion_local.py", line 47
+    host = PG_HOST
+       ^
+SyntaxError: invalid syntax
+[2025-02-22 23:47:07,693] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:47:07,707] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 0.044 seconds
+[2025-02-22 23:47:37,771] {processor.py:163} INFO - Started process (PID=2160) to work on /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:47:37,772] {processor.py:642} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2025-02-22 23:47:37,772] {logging_mixin.py:109} INFO - [2025-02-22 23:47:37,772] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:47:37,774] {logging_mixin.py:109} INFO - [2025-02-22 23:47:37,773] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/data_ingestion_local.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion_local.py", line 47
+    host = PG_HOST
+       ^
+SyntaxError: invalid syntax
+[2025-02-22 23:47:37,792] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:47:37,800] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 0.033 seconds
+[2025-02-22 23:48:07,899] {processor.py:163} INFO - Started process (PID=2184) to work on /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:48:07,901] {processor.py:642} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2025-02-22 23:48:07,902] {logging_mixin.py:109} INFO - [2025-02-22 23:48:07,902] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:48:07,904] {logging_mixin.py:109} INFO - [2025-02-22 23:48:07,903] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/data_ingestion_local.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion_local.py", line 47
+    host = PG_HOST
+       ^
+SyntaxError: invalid syntax
+[2025-02-22 23:48:07,932] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:48:07,946] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 0.050 seconds
+[2025-02-22 23:48:38,010] {processor.py:163} INFO - Started process (PID=2218) to work on /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:48:38,012] {processor.py:642} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2025-02-22 23:48:38,013] {logging_mixin.py:109} INFO - [2025-02-22 23:48:38,013] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:48:38,015] {logging_mixin.py:109} INFO - [2025-02-22 23:48:38,014] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/data_ingestion_local.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion_local.py", line 47
+    host = PG_HOST
+       ^
+SyntaxError: invalid syntax
+[2025-02-22 23:48:38,039] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:48:38,051] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 0.045 seconds
+[2025-02-22 23:49:08,118] {processor.py:163} INFO - Started process (PID=2245) to work on /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:49:08,120] {processor.py:642} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2025-02-22 23:49:08,121] {logging_mixin.py:109} INFO - [2025-02-22 23:49:08,121] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:49:08,123] {logging_mixin.py:109} INFO - [2025-02-22 23:49:08,122] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/data_ingestion_local.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion_local.py", line 47
+    host = PG_HOST
+       ^
+SyntaxError: invalid syntax
+[2025-02-22 23:49:08,145] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:49:08,158] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 0.043 seconds
+[2025-02-22 23:49:38,231] {processor.py:163} INFO - Started process (PID=2269) to work on /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:49:38,233] {processor.py:642} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2025-02-22 23:49:38,233] {logging_mixin.py:109} INFO - [2025-02-22 23:49:38,233] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:49:38,235] {logging_mixin.py:109} INFO - [2025-02-22 23:49:38,235] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/data_ingestion_local.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion_local.py", line 47
+    host = PG_HOST
+       ^
+SyntaxError: invalid syntax
+[2025-02-22 23:49:38,257] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:49:38,270] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 0.042 seconds
+[2025-02-22 23:50:08,341] {processor.py:163} INFO - Started process (PID=2305) to work on /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:50:08,342] {processor.py:642} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2025-02-22 23:50:08,343] {logging_mixin.py:109} INFO - [2025-02-22 23:50:08,343] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:50:08,345] {logging_mixin.py:109} INFO - [2025-02-22 23:50:08,344] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/data_ingestion_local.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion_local.py", line 47
+    host = PG_HOST
+       ^
+SyntaxError: invalid syntax
+[2025-02-22 23:50:08,371] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:50:08,384] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 0.046 seconds
+[2025-02-22 23:50:38,447] {processor.py:163} INFO - Started process (PID=2331) to work on /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:50:38,449] {processor.py:642} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2025-02-22 23:50:38,450] {logging_mixin.py:109} INFO - [2025-02-22 23:50:38,450] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:50:38,452] {logging_mixin.py:109} INFO - [2025-02-22 23:50:38,451] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/data_ingestion_local.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion_local.py", line 47
+    host = PG_HOST
+       ^
+SyntaxError: invalid syntax
+[2025-02-22 23:50:38,475] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:50:38,487] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 0.044 seconds
+[2025-02-22 23:51:08,558] {processor.py:163} INFO - Started process (PID=2365) to work on /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:51:08,559] {processor.py:642} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2025-02-22 23:51:08,559] {logging_mixin.py:109} INFO - [2025-02-22 23:51:08,559] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:51:08,562] {logging_mixin.py:109} INFO - [2025-02-22 23:51:08,561] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/data_ingestion_local.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion_local.py", line 47
+    host = PG_HOST
+       ^
+SyntaxError: invalid syntax
+[2025-02-22 23:51:08,582] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:51:08,593] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 0.038 seconds
+[2025-02-22 23:51:38,665] {processor.py:163} INFO - Started process (PID=2390) to work on /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:51:38,667] {processor.py:642} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2025-02-22 23:51:38,667] {logging_mixin.py:109} INFO - [2025-02-22 23:51:38,667] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:51:38,669] {logging_mixin.py:109} INFO - [2025-02-22 23:51:38,669] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/data_ingestion_local.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion_local.py", line 47
+    host = PG_HOST
+       ^
+SyntaxError: invalid syntax
+[2025-02-22 23:51:38,690] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:51:38,703] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 0.041 seconds
+[2025-02-22 23:52:08,772] {processor.py:163} INFO - Started process (PID=2415) to work on /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:52:08,774] {processor.py:642} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2025-02-22 23:52:08,775] {logging_mixin.py:109} INFO - [2025-02-22 23:52:08,775] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:52:08,777] {logging_mixin.py:109} INFO - [2025-02-22 23:52:08,776] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/data_ingestion_local.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion_local.py", line 47
+    host = PG_HOST
+       ^
+SyntaxError: invalid syntax
+[2025-02-22 23:52:08,799] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:52:08,812] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 0.044 seconds
+[2025-02-22 23:52:38,878] {processor.py:163} INFO - Started process (PID=2451) to work on /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:52:38,879] {processor.py:642} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2025-02-22 23:52:38,880] {logging_mixin.py:109} INFO - [2025-02-22 23:52:38,880] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:52:38,882] {logging_mixin.py:109} INFO - [2025-02-22 23:52:38,881] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/data_ingestion_local.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion_local.py", line 47
+    host = PG_HOST
+       ^
+SyntaxError: invalid syntax
+[2025-02-22 23:52:38,902] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:52:38,915] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 0.040 seconds
+[2025-02-22 23:53:09,006] {processor.py:163} INFO - Started process (PID=2476) to work on /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:53:09,008] {processor.py:642} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2025-02-22 23:53:09,009] {logging_mixin.py:109} INFO - [2025-02-22 23:53:09,009] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:53:09,011] {logging_mixin.py:109} INFO - [2025-02-22 23:53:09,010] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/data_ingestion_local.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion_local.py", line 47
+    host = PG_HOST
+       ^
+SyntaxError: invalid syntax
+[2025-02-22 23:53:09,031] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:53:09,040] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 0.038 seconds
+[2025-02-22 23:53:39,110] {processor.py:163} INFO - Started process (PID=2501) to work on /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:53:39,112] {processor.py:642} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2025-02-22 23:53:39,113] {logging_mixin.py:109} INFO - [2025-02-22 23:53:39,113] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:53:39,115] {logging_mixin.py:109} INFO - [2025-02-22 23:53:39,114] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/data_ingestion_local.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion_local.py", line 47
+    host = PG_HOST
+       ^
+SyntaxError: invalid syntax
+[2025-02-22 23:53:39,135] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:53:39,145] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 0.038 seconds
+[2025-02-22 23:54:09,219] {processor.py:163} INFO - Started process (PID=2536) to work on /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:54:09,220] {processor.py:642} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2025-02-22 23:54:09,221] {logging_mixin.py:109} INFO - [2025-02-22 23:54:09,221] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:54:09,223] {logging_mixin.py:109} INFO - [2025-02-22 23:54:09,222] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/data_ingestion_local.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion_local.py", line 47
+    host = PG_HOST
+       ^
+SyntaxError: invalid syntax
+[2025-02-22 23:54:09,242] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:54:09,253] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 0.037 seconds
+[2025-02-22 23:54:39,328] {processor.py:163} INFO - Started process (PID=2561) to work on /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:54:39,330] {processor.py:642} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2025-02-22 23:54:39,331] {logging_mixin.py:109} INFO - [2025-02-22 23:54:39,331] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:54:39,334] {logging_mixin.py:109} INFO - [2025-02-22 23:54:39,333] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/data_ingestion_local.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion_local.py", line 47
+    host = PG_HOST
+       ^
+SyntaxError: invalid syntax
+[2025-02-22 23:54:39,357] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:54:39,369] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 0.044 seconds
+[2025-02-22 23:55:09,436] {processor.py:163} INFO - Started process (PID=2596) to work on /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:55:09,439] {processor.py:642} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2025-02-22 23:55:09,440] {logging_mixin.py:109} INFO - [2025-02-22 23:55:09,440] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:55:09,442] {logging_mixin.py:109} INFO - [2025-02-22 23:55:09,441] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/data_ingestion_local.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion_local.py", line 47
+    host = PG_HOST
+       ^
+SyntaxError: invalid syntax
+[2025-02-22 23:55:09,459] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:55:09,470] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 0.037 seconds
+[2025-02-22 23:55:39,546] {processor.py:163} INFO - Started process (PID=2620) to work on /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:55:39,548] {processor.py:642} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2025-02-22 23:55:39,549] {logging_mixin.py:109} INFO - [2025-02-22 23:55:39,549] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:55:39,552] {logging_mixin.py:109} INFO - [2025-02-22 23:55:39,551] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/data_ingestion_local.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion_local.py", line 47
+    host = PG_HOST
+       ^
+SyntaxError: invalid syntax
+[2025-02-22 23:55:39,575] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:55:39,587] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 0.045 seconds
+[2025-02-22 23:56:09,655] {processor.py:163} INFO - Started process (PID=2644) to work on /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:56:09,657] {processor.py:642} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2025-02-22 23:56:09,658] {logging_mixin.py:109} INFO - [2025-02-22 23:56:09,657] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:56:09,660] {logging_mixin.py:109} INFO - [2025-02-22 23:56:09,659] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/data_ingestion_local.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion_local.py", line 47
+    host = PG_HOST
+       ^
+SyntaxError: invalid syntax
+[2025-02-22 23:56:09,678] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:56:09,688] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 0.036 seconds
+[2025-02-22 23:56:39,764] {processor.py:163} INFO - Started process (PID=2679) to work on /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:56:39,766] {processor.py:642} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2025-02-22 23:56:39,767] {logging_mixin.py:109} INFO - [2025-02-22 23:56:39,767] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:56:39,769] {logging_mixin.py:109} INFO - [2025-02-22 23:56:39,769] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/data_ingestion_local.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion_local.py", line 47
+    host = PG_HOST
+       ^
+SyntaxError: invalid syntax
+[2025-02-22 23:56:39,788] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:56:39,798] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 0.037 seconds
+[2025-02-22 23:57:09,875] {processor.py:163} INFO - Started process (PID=2704) to work on /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:57:09,877] {processor.py:642} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2025-02-22 23:57:09,878] {logging_mixin.py:109} INFO - [2025-02-22 23:57:09,878] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:57:09,880] {logging_mixin.py:109} INFO - [2025-02-22 23:57:09,880] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/data_ingestion_local.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion_local.py", line 47
+    host = PG_HOST
+       ^
+SyntaxError: invalid syntax
+[2025-02-22 23:57:09,900] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:57:09,909] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 0.038 seconds
+[2025-02-22 23:57:39,981] {processor.py:163} INFO - Started process (PID=2737) to work on /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:57:39,982] {processor.py:642} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2025-02-22 23:57:39,983] {logging_mixin.py:109} INFO - [2025-02-22 23:57:39,983] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:57:39,985] {logging_mixin.py:109} INFO - [2025-02-22 23:57:39,984] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/data_ingestion_local.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion_local.py", line 47
+    host = PG_HOST
+       ^
+SyntaxError: invalid syntax
+[2025-02-22 23:57:40,005] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:57:40,016] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 0.037 seconds
+[2025-02-22 23:58:10,107] {processor.py:163} INFO - Started process (PID=2763) to work on /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:58:10,109] {processor.py:642} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2025-02-22 23:58:10,110] {logging_mixin.py:109} INFO - [2025-02-22 23:58:10,110] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:58:10,112] {logging_mixin.py:109} INFO - [2025-02-22 23:58:10,111] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/data_ingestion_local.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion_local.py", line 47
+    host = PG_HOST
+       ^
+SyntaxError: invalid syntax
+[2025-02-22 23:58:10,138] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:58:10,153] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 0.049 seconds
+[2025-02-22 23:58:40,215] {processor.py:163} INFO - Started process (PID=2789) to work on /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:58:40,217] {processor.py:642} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2025-02-22 23:58:40,218] {logging_mixin.py:109} INFO - [2025-02-22 23:58:40,218] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:58:40,220] {logging_mixin.py:109} INFO - [2025-02-22 23:58:40,219] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/data_ingestion_local.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion_local.py", line 47
+    host = PG_HOST
+       ^
+SyntaxError: invalid syntax
+[2025-02-22 23:58:40,242] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:58:40,254] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 0.042 seconds
+[2025-02-22 23:59:10,332] {processor.py:163} INFO - Started process (PID=2824) to work on /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:59:10,335] {processor.py:642} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2025-02-22 23:59:10,335] {logging_mixin.py:109} INFO - [2025-02-22 23:59:10,335] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:59:10,338] {logging_mixin.py:109} INFO - [2025-02-22 23:59:10,337] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/data_ingestion_local.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion_local.py", line 47
+    host = PG_HOST
+       ^
+SyntaxError: invalid syntax
+[2025-02-22 23:59:10,357] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:59:10,367] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 0.038 seconds
+[2025-02-22 23:59:40,438] {processor.py:163} INFO - Started process (PID=2848) to work on /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:59:40,440] {processor.py:642} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2025-02-22 23:59:40,441] {logging_mixin.py:109} INFO - [2025-02-22 23:59:40,441] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:59:40,444] {logging_mixin.py:109} INFO - [2025-02-22 23:59:40,443] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/data_ingestion_local.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_ingestion_local.py", line 47
+    host = PG_HOST
+       ^
+SyntaxError: invalid syntax
+[2025-02-22 23:59:40,468] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2025-02-22 23:59:40,481] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 0.047 seconds
